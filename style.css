@@ -1,0 +1,139 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin-left: auto;
+    margin-right: auto;
+    background: whitesmoke;
+}
+  
+nav {
+    background: url("https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/1540524_661367937240019_811328488_o.jpg?_nc_cat=107&_nc_oc=AQnlhUILRPZhse7vR2i3jLBdx4hl19gsjXrfhcLDAYH4neqUU4cv4XBK-WcRc0bWwtVc_NkFhnRCY9c1efJ9Q9wr&_nc_ht=scontent-iad3-1.xx&oh=f0dadce6f6f92bc3df0061562a02ca06&oe=5DEF7B0F");
+    background: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: 1000px;
+    background-position: center;
+    display: center;
+    height: 400px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-width: 100%;
+    margin-top: -16px;
+    padding-top: 10px;
+    color: white;
+    border-bottom: 50px solid black;
+    text-align: center;
+}
+  
+.nav_bar li{
+    display: inline;
+    position: relative;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+ color: red;
+}
+
+main {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+header img {
+    position:relative; 
+    margin-top: -300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 145px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+  
+h1, h2 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: normal; 
+}
+
+h3, h4 {
+    font-family: 'Cinzel', serif;
+    font-weight: normal; 
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+  
+main {
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 40px;
+}
+
+fieldset {
+      justify-content: center; 
+      max-width: 800px; 
+      text-align: left;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      background: white;
+}
+  
+li {
+      list-style-type: none;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: grey;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    width: 104.5%;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: red;
+}
+  
+@media(max-width: 500px) {
+
+}
