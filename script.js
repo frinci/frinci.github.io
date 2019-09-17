@@ -1,3 +1,3 @@
 function onClick(){
-    alert("Thanks for your Email!")
+    alert("Thanks for your email!")
 }

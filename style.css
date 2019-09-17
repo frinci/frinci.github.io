@@ -159,6 +159,12 @@ footer a {
     color: grey;
     text-decoration: none;
 }
+
+footer a:hover {
+    color: red;
+}
+
+
   
 @media(max-width: 500px) {
     body {
@@ -169,10 +175,6 @@ footer a {
         margin-left: 20px;
         margin-right: 20px;
     }
-}
-
-footer a:hover {
-    color: red;
 }
 
 @media(max-width: 800px) {
