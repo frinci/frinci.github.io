@@ -148,17 +148,6 @@ button {
 button:hover {
     background: red;
 }
-  
-@media(max-width: 500px) {
-    body {
-        text-align: center;
-    }
-
-    fieldset {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
 
 footer {
     text-align: center;
@@ -169,6 +158,17 @@ footer {
 footer a {
     color: grey;
     text-decoration: none;
+}
+  
+@media(max-width: 500px) {
+    body {
+        text-align: center;
+    }
+
+    fieldset {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 footer a:hover {
