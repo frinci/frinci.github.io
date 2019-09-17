@@ -62,6 +62,11 @@ header img {
     width: 145px;
     border-radius: 50%;
     border: 2px solid white;
+    transition-duration: 3s;
+}
+
+header img:hover {
+    transform: rotateY(360deg);
 }
 
 h1 {
@@ -99,17 +104,16 @@ main {
 }
 
 fieldset {
-      justify-content: center; 
-      max-width: 800px; 
-      text-align: left;
-      padding-left: 100px;
-      padding-right: 100px;
-      padding-bottom: 40px;
-      margin-left: auto;
-      margin-right: auto;
-      background: white;
+    justify-content: center; 
+    max-width: 800px; 
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
 }
-
 
 .contact_me a {
     color: black;
@@ -143,36 +147,6 @@ button {
 
 button:hover {
     background: red;
-}
-
-@media(max-width: 300px) {
-
-    main {
-        text-align: center;
-        padding-left: 3px;
-        padding-right: 3px;
-    }
-
-    nav {
-        justify-content: center;
-    }
-
-    .nav_bar li{
-        display: inline;
-        position: center;
-        top: 0;
-    }
-
-    header img {
-        position: center;
-        margin-left: auto;
-        margin-right: auto;
-        right: 0;
-    }
-
-    fieldset {
-        margin-left: 0px;
-    }
 }
   
 @media(max-width: 500px) {
