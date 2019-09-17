@@ -10,27 +10,29 @@ nav {
     background: cover;
     background-color: black;
     background-repeat: no-repeat;
-    background-image: 1000px;
+    background-image: 100%;
     background-position: center;
     display: center;
     height: 400px;
     position: relative;
     width: 100%;
-    border-bottom: 1px solid black;
     border-width: 100%;
     margin-top: -16px;
     padding-top: 10px;
     color: white;
     border-bottom: 50px solid black;
     text-align: center;
+    
 }
   
 .nav_bar li{
     display: inline;
     position: relative;
+    top: 400px;
+    left: 45px;
 }
 
-a {
+.nav_bar a {
     color: white;
     text-decoration: none;
 }
@@ -53,10 +55,9 @@ header {
 }
   
 header img {
-    position:relative; 
-    margin-top: -300px;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative; 
+    margin-top: -400px;
+    right: 130px;
     height: 150px;
     width: 145px;
     border-radius: 50%;
@@ -108,6 +109,16 @@ fieldset {
       margin-right: auto;
       background: white;
 }
+
+
+.contact_me a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact_me a:hover {
+    color: red;
+}
   
 li {
       list-style-type: none;
@@ -133,7 +144,63 @@ button {
 button:hover {
     background: red;
 }
+
+@media(max-width: 300px) {
+
+    main {
+        text-align: center;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    .nav_bar li{
+        display: inline;
+        position: center;
+        top: 0;
+    }
+
+    header img {
+        position: center;
+        margin-left: auto;
+        margin-right: auto;
+        right: 0;
+    }
+
+    fieldset {
+        margin-left: 0px;
+    }
+}
   
 @media(max-width: 500px) {
+    body {
+        text-align: center;
+    }
 
+    fieldset {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
+
+@media(max-width: 800px) {
+    body {
+        text-align: center;
+    }
+
+    fieldset {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+    fieldset {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
